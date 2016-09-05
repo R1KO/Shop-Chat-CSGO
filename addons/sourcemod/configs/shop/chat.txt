@@ -1,0 +1,209 @@
+"Chat"
+{
+	"name_color_name"			"Цвет ника"		// Название категории в меню
+	"name_color_description"	""				// Описание категории в меню
+	"name_color_enable"			"1"				// Вкл/выкл категории
+
+	"text_color_name"			"Цвет текста"	// Название категории в меню
+	"text_color_description"	""				// Описание категории в меню
+	"text_color_enable"			"1"				// Вкл/выкл категории
+
+	"prefix_color_name"			"Цвет префикса"	// Название категории в меню
+	"prefix_color_description"	""				// Описание категории в меню
+	"prefix_color_enable"		"1"				// Вкл/выкл категории
+
+	"prefix_name"				"Префикс"		// Название категории в меню
+	"prefix_description"		""				// Описание категории в меню
+	"prefix_enable"				"1"				// Вкл/выкл категории
+	
+	"ignore_chat_triggers"		"1"				//	Игнорировать ли сообщения, которые начинаются с '!', '/', '@'
+
+	"Colors"
+	{
+		"greenclr"
+		{
+			"color"  		"{GREEN}" 	// Код цвета
+			"name"			"Зеленый" 	// Название предмета в меню
+			"price"  		"200"  		// Цена покупки предмета или 0, бесплатно
+			"sellprice" 	"100"  		// Цена продажи предмета
+			"duration"  	"3600"  	// Длительность использования предмета в секундах или 0, чтобы был навсегда
+		}
+		"teamclr"
+		{
+			"color"			"{TEAM}"	
+			"name"			"Командный"	
+			"price"			"200"		
+			"sellprice"		"100"		
+			"duration"		"3600"		
+		}
+		"whiteclr"
+		{
+			"color"			"{DEFAULT}"	
+			"name"			"Белый"	
+			"price"			"200"		
+			"sellprice"		"100"		
+			"duration"		"3600"		
+		}
+		"blueclr"
+		{
+			"color"			"{BLUE}"	
+			"name"			"Синий"	
+			"price"			"200"		
+			"sellprice"		"100"		
+			"duration"		"3600"		
+		}
+		"lblueclr"
+		{
+			"color"			"{LIGHTBLUE}"	
+			"name"			"Светло-синий"	
+			"price"			"200"		
+			"sellprice"		"100"		
+			"duration"		"3600"		
+		}
+		"pinkclr"
+		{
+			"color"			"{PURPLE}"	
+			"name"			"Розовый"	
+			"price"			"200"		
+			"sellprice"		"100"		
+			"duration"		"3600"		
+		}
+		"oliveclr"
+		{
+			"color"			"{OLIVE}"	
+			"name"			"Оливковый"	
+			"price"			"200"		
+			"sellprice"		"100"		
+			"duration"		"3600"		
+		}
+		"yellowclr"
+		{
+			"color"			"{LIGHTOLIVE}"	
+			"name"			"Желтый"	
+			"price"			"200"		
+			"sellprice"		"100"		
+			"duration"		"3600"		
+		}
+		"grayclr"
+		{
+			"color"			"{GRAY}"	
+			"name"			"Серый"	
+			"price"			"200"		
+			"sellprice"		"100"		
+			"duration"		"3600"		
+		}
+		"lredclr"
+		{
+			"color"			"{LIGHTRED}"	
+			"name"			"Светло-красный"	
+			"price"			"200"		
+			"sellprice"		"100"		
+			"duration"		"3600"		
+		}
+		"lgreenclr"
+		{
+			"color"			"{LIGHTGREEN}"	
+			"name"			"Кислотный"	
+			"price"			"200"		
+			"sellprice"		"100"		
+			"duration"		"3600"		
+		}
+		"limeclr"
+		{
+			"color"			"{LIME}"	
+			"name"			"Лаймовый"	
+			"price"			"200"		
+			"sellprice"		"100"		
+			"duration"		"3600"		
+		}
+		"redclr"
+		{
+			"color"			"{RED}"
+			"name"			"Красный"
+			"price"			"200"
+			"sellprice"		"100"
+			"duration"		"3600"
+		}
+	}
+	"Prefixes"
+	{
+		"custom"
+		{
+			"tag"			"custom"	// Тег (custom позволяет пользователю самому ввести тег в чат)
+			"name"			"Пользовательский"	// Название предмета в меню
+			"price"			"200"		// Цена покупки предмета
+			"sellprice"		"100"		// Цена продажи предмета
+			"duration"		"3600"		// Длительность использования предмета в секундах или 0, чтобы был навсегда
+		}
+		"tag1"
+		{
+			"tag"			"[DONATOR]"	
+			"price"			"200"		
+			"sellprice"		"100"		
+			"duration"		"3600"		
+		}
+		"tag2"
+		{
+			"tag"			"[HACKER]"	
+			"price"			"200"		
+			"sellprice"		"100"		
+			"duration"		"3600"		
+		}
+		"tag3"
+		{
+			"tag"			"[KILLER]"	
+			"price"			"200"		
+			"sellprice"		"100"		
+			"duration"		"3600"		
+		}
+		"tag4"
+		{
+			"tag"			"[2K16]"	
+			"price"			"200"		
+			"sellprice"		"100"		
+			"duration"		"3600"		
+		}
+		"tag5"
+		{
+			"tag"			"[Принцесса]"	
+			"price"			"200"		
+			"sellprice"		"100"		
+			"duration"		"3600"		
+		}
+		"tag6"
+		{
+			"tag"			"[АННИГИЛЯТОР]"	
+			"price"			"200"		
+			"sellprice"		"100"		
+			"duration"		"3600"		
+		}
+		"tag7"
+		{
+			"tag"			"[ЗАДРОТ]"	
+			"price"			"200"		
+			"sellprice"		"100"		
+			"duration"		"3600"		
+		}
+		"tag8"
+		{
+			"tag"			"[Мистер]"	
+			"price"			"200"		
+			"sellprice"		"100"		
+			"duration"		"3600"		
+		}
+		"tag9"
+		{
+			"tag"			"[Мисс]"	
+			"price"			"200"		
+			"sellprice"		"100"		
+			"duration"		"3600"		
+		}
+		"tag10"
+		{
+			"tag"			"[НиЧоСи]"	
+			"price"			"200"		
+			"sellprice"		"100"		
+			"duration"		"3600"		
+		}
+	}
+}
