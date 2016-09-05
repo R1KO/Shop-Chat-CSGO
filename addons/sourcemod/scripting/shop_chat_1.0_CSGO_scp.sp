@@ -103,25 +103,21 @@ public int Shop_Started()
 	}
 
 	category_enable[PREFIX] = view_as<bool>(hKeyValues.GetNum("prefix_enable"));
-	LogMessage("prefix_enable: %b", category_enable[PREFIX]);
+
 	if(category_enable[PREFIX])
 	{
 		hKeyValues.GetString("prefix_name", sName, sizeof(sName));
 		hKeyValues.GetString("prefix_description", sDescription, sizeof(sDescription));
 		g_iCategory_id[PREFIX] = Shop_RegisterCategory("chat_prefix", sName, sDescription);
-		LogMessage("Category_id: %i, ('%s', '%s')", g_iCategory_id[PREFIX], sName, sDescription);
-	
+
 		hKeyValues.Rewind();
 		if(hKeyValues.JumpToKey("Prefixes") && hKeyValues.GotoFirstSubKey())
 		{
-			LogMessage("JumpToKey && GotoFirstSubKey");
 			do
 			{
 				hKeyValues.GetSectionName(sBuffer, sizeof(sBuffer));
-				LogMessage("GetSectionName: '%s'", sBuffer);
 				if (Shop_StartItem(g_iCategory_id[PREFIX], sBuffer))
 				{
-					LogMessage("Shop_StartItem: '%s'", sBuffer);
 					hKeyValues.GetString("tag", sDescription, sizeof(sDescription));
 					hKeyValues.GetString("name", sName, sizeof(sName), sDescription);
 
